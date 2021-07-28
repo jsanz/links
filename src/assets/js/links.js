@@ -2,13 +2,13 @@ const links = [
   {
     "id": "web",
     "icon": "googlechrome",
-    "text": "Personal web and blog",
+    "text": "Blog",
     "link": "https://jorgesanz.net"
   },
   {
     "id": "photos",
     "icon": "photobucket",
-    "text": "Personal pictures",
+    "text": "Pictures",
     "link": "https://media.jorgesanz.net"
   },
   {

@@ -58,30 +58,35 @@
     <script defer src="./assets/js/index.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="">
+  <body class="sans-serif">
     <main class="flex flex-column items-center justify-center">
       <header>
         <div class="pa1 tc">
           <p>
             <img
-            src="./assets/imgs/jsanz_small.png"
-            class="h3 w3 dib" alt="avatar">
+              src="./assets/imgs/jsanz_small.png"
+              class="h4 w4 dib"
+              alt="avatar"
+            />
           </p>
-          <p>
-            Jorge Sanz
-          </p>
+          <h1 class="f4 fw5">Jorge Sanz</h1>
         </div>
       </header>
       <article class="ph2 pv1 w-70 w-50-l">
-        <section id="links-list" class="flex flex-column items-center justify-center"></section>
+        <section
+          id="links-list"
+          class="flex flex-column items-center justify-center"
+        ></section>
       </article>
       <footer class="ph2 pv1">
-        <p><a 
-          class="near-black no-underline hover-green"
-          href="https://jorgesanz.net">
-          Jorge Sanz &#169; - 2021
-        </a>
-      </p>
+        <p>
+          <a
+            class="near-black no-underline hover-green f6"
+            href="https://github.com/jsanz/links"
+          >
+            About this site
+          </a>
+        </p>
       </footer>
     </main>
 
@@ -106,13 +111,14 @@
           href="{{link}}"
           title="{{title}}"
         >
-        <img 
-          class="link-img" 
-          height="32" 
-          width="32" 
-          alt="Link icon"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/slug.svg" />
-        <span class="link-title f6 ml3 pr2">{{title}}</span>
+          <img
+            class="link-img"
+            height="32"
+            width="32"
+            alt="Link icon"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/slug.svg"
+          />
+          <span class="link-title f6 ml3 pr2">{{title}}</span>
         </a>
       </div>
     </template>

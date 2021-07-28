@@ -1,0 +1,19 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "A personal links website",
+  "main": "app/index.html",
+  "repository": "git@github.com:jsanz/links.git",
+  "author": "Jorge Sanz <jorge@jorgesanz.net>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clean": "rimraf app dist",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1",
+    "rimraf": "^3.0.2"
+  }
+}

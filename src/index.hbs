@@ -27,24 +27,44 @@
     <meta name="twitter:url" content="{{metadata.url}}" />
     <meta name="twitter:image" content="./assets/imgs/avatar.png" />
 
-
     <!-- fav and touch icons -->
-    <link rel="apple-touch-icon" sizes="72x72" href="./assets/imgs/avatar_72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="./assets/imgs/avatar_114.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/imgs/avatar_72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/imgs/avatar_114.png"
+    />
     <link rel="shortcut icon" href="./assets/imgs/avatar.ico" />
 
-    <!-- resources -->
+    {{!-- humans.txt --}}
     <link type="text/plain" rel="author" href="./assets/humans.txt" />
-    <link rel="stylesheet" href="./assets/css/purified-tachyons.css" />
-    {{!-- <link rel="stylesheet" href="./assets/css/style.css" /> --}}
+
+    {{!-- Styles --}}
+    <link
+      rel="preload"
+      href="./assets/css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link
+        rel="stylesheet"
+        href="./assets/css/styles.css"
+      /></noscript>
+
   </head>
+  
   <body class="sans-serif">
     <main class="flex flex-column items-center justify-center">
       <header>
         <div class="pt4 pa1 tc">
+          {{! Main image }}
           <div>
             <img
-              src="./assets/imgs/avatar.png"
+              src="./assets/imgs/avatar.webp"
               class="h4 w4 dib"
               alt="avatar"
             />
@@ -57,6 +77,7 @@
           id="links-list"
           class="flex flex-column items-center justify-center"
         >
+          {{! Links list loop }}
           {{#each links}}
             <div class="w-70-ns w-100 tc">
               <a
@@ -64,6 +85,7 @@
                 href="{{link}}"
                 title="{{title}}"
               >
+                {{!-- Icon must be a valid brand name from Simple Icons package --}}
                 <img
                   class="link-img"
                   height="32"
@@ -79,7 +101,8 @@
       </article>
       <footer class="ph2 pv1 f6">
         <p>
-          {{{texts.footer}}} -
+          {{{texts.footer}}}
+          -
           <a
             class="near-black no-underline hover-green"
             href="https://github.com/jsanz/links"

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{metadata.title}}</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO stuff -->
+    <meta name="author" content="{{metadata.title}}" />
+    <meta name="description" content="{{metadata.description}}" />
+    <meta name="keywords" content="{{metadata.keywords}}" />
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:title" content="{{metadata.title}}" />
+    <meta property="og:url" content="{{metadata.url}}" />
+    <meta property="og:site_name" content="{{metadata.title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/imgs/avatar.png" />
+
+    <!-- twitter cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{metadata.twitter_handle}}" />
+    <meta name="twitter:title" content="{{metadata.title}}" />
+    <meta name="twitter:description" content="{{metadata.description}}" />
+    <meta name="twitter:url" content="{{metadata.url}}" />
+    <meta name="twitter:image" content="./assets/imgs/avatar.png" />
+
+
+    <!-- fav and touch icons -->
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/imgs/avatar_72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/imgs/avatar_114.png" />
+    <link rel="shortcut icon" href="./assets/imgs/avatar.ico" />
+
+    <!-- resources -->
+    <link type="text/plain" rel="author" href="./assets/humans.txt" />
+    <link rel="stylesheet" href="./assets/css/purified-tachyons.css" />
+    {{!-- <link rel="stylesheet" href="./assets/css/style.css" /> --}}
+  </head>
+  <body class="sans-serif">
+    <main class="flex flex-column items-center justify-center">
+      <header>
+        <div class="pt4 pa1 tc">
+          <div>
+            <img
+              src="./assets/imgs/avatar.png"
+              class="h4 w4 dib"
+              alt="avatar"
+            />
+          </div>
+          <h1 class="f4 fw5">{{{texts.header}}}</h1>
+        </div>
+      </header>
+      <article class="ph2 pv1 w-70 w-50-l">
+        <section
+          id="links-list"
+          class="flex flex-column items-center justify-center"
+        >
+          {{#each links}}
+            <div class="w-70-ns w-100 tc">
+              <a
+                class="link-a no-underline near-black bg-animate bg-near-white hover-bg-washed-green inline-flex items-center ba ma2 tc br2 pa2 w-90"
+                href="{{link}}"
+                title="{{title}}"
+              >
+                <img
+                  class="link-img"
+                  height="32"
+                  width="32"
+                  alt="Link icon"
+                  src="../node_modules/simple-icons/icons/{{icon}}.svg"
+                />
+                <span class="link-title f6 ml3 pr2">{{title}}</span>
+              </a>
+            </div>
+          {{/each}}
+        </section>
+      </article>
+      <footer class="ph2 pv1 f6">
+        <p>
+          {{{texts.footer}}} -
+          <a
+            class="near-black no-underline hover-green"
+            href="https://github.com/jsanz/links"
+          >
+            About this site
+          </a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

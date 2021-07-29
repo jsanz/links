@@ -103,10 +103,13 @@ dist
 # TernJS port file
 .tern-port
 
-//Project ignores
+# Project ignores
 
 .parcel-cache
 .vscode
 dist
 app
 
+# Generated assets 
+src/index.html
+src/assets/css/purified-tachyons.css

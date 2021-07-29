@@ -1,6 +1,6 @@
 {
   "name": "links",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A personal links website",
   "main": "dist/index.html",
   "repository": "git@github.com:jsanz/links.git",
@@ -8,17 +8,22 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist src/index.html",
+    "template": "hbs --data data.json ./src/index.hbs --output src",
+    "css-optimize": "purifycss ./node_modules/tachyons/css/tachyons.css src/index.html -i -o src/assets/css/purified-tachyons.css",
+    "prestart": "yarn clean && yarn template && yarn css-optimize",
+    "prebuild": "yarn clean && yarn template && yarn css-optimize",
     "start": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
+    "hbs-cli": "^1.4.0",
     "parcel": "^2.0.0-beta.3.1",
     "parcel-reporter-static-files-copy": "^1.3.0",
-    "rimraf": "^3.0.2"
+    "purify-css": "^1.2.5",
+    "simple-icons": "^5.8.0",
+    "rimraf": "^3.0.2",
+    "tachyons": "^4.12.0"
   },
-  "dependencies": {
-    "tachyons": "^4.12.0",
-    "simple-icons": "^5.8.0"
-  }
+  "dependencies": {}
 }

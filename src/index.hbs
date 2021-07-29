@@ -54,11 +54,16 @@
         rel="stylesheet"
         href="./assets/css/styles.css"
       /></noscript>
-
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('main').removeAttribute("style");
+      });
+    </script>
   </head>
   
   <body class="sans-serif">
-    <main class="flex flex-column items-center justify-center">
+    <main id="main" class="flex flex-column items-center justify-center" style="display: none;">
       <header>
         <div class="pt4 pa1 tc">
           {{! Main image }}

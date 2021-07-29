@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "url": "https://links.jorgesanz.net",
+    "title": "Links",
+    "description": "This is a website to share the main links that point to my Internet presence",
+    "keywords": "Jorge Sanz, Jorge Gaspar Sanz Salinas, Personal, Website, Links, Bio",
+    "author": "Jorge Sanz",
+    "twitter_handle": "@xurxosanz"
+  },
+  "texts": {
+    "footer": "&copy; 2021"
+  },
+  "links": [
+    {
+      "id": "web",
+      "icon": "googlechrome",
+      "title": "Blog",
+      "link": "https://jorgesanz.net"
+    },
+    {
+      "id": "photos",
+      "icon": "photobucket",
+      "title": "Pictures",
+      "link": "https://media.jorgesanz.net"
+    },
+    {
+      "id": "twitter",
+      "icon": "twitter",
+      "title": "Twitter",
+      "link": "https://twitter.com/xurxosanz"
+    },
+    {
+      "id": "github",
+      "icon": "github",
+      "title": "Github",
+      "link": "https://github.com/jsanz"
+    },
+    {
+      "id": "pinboard",
+      "icon": "pinboard",
+      "title": "Bookmarks",
+      "link": "https://pinboard.in/u:xurxosanz"
+    },
+    {
+      "id": "goodreads",
+      "icon": "goodreads",
+      "title": "Reads",
+      "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz"
+    },
+    {
+      "id": "geomatic",
+      "icon": "wordpress",
+      "title": "Geomaticblog",
+      "link": "https://geomaticblog.net"
+    },
+    {
+      "id": "linkedin",
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "link": "https://linkedin.com/in/jsanz"
+    },
+    {
+      "id": "polywork",
+      "icon": "polywork",
+      "title": "Polywork",
+      "link": "https://polywork.com/jsanz"
+    }
+  ]
+}

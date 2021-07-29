@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "clean": "rimraf dist src/index.html src/assets/css/purified-tachyons.css",
+    "clean": "rimraf dist src/index.html src/assets/css/styles.css",
     "template": "hbs --data data.json ./src/index.hbs --output src",
-    "css-optimize": "purifycss ./node_modules/tachyons/css/tachyons.css src/index.html -i -o ./src/assets/css/purified-tachyons.css",
+    "css-optimize": "purifycss ./node_modules/tachyons/css/tachyons.css src/index.html -i -o ./src/assets/css/styles.css",
     "prestart": "yarn clean && yarn template && yarn css-optimize",
     "prebuild": "yarn clean && yarn template && yarn css-optimize",
     "start": "parcel serve ./src/index.html",

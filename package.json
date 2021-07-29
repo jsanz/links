@@ -1,6 +1,6 @@
 {
   "name": "links",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A personal links website",
   "main": "dist/index.html",
   "repository": "git@github.com:jsanz/links.git",

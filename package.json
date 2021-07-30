@@ -8,13 +8,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "clean": "rimraf dist src/index.html",
-    "template": "hbs --data data.json ./src/index.hbs --output src",
-    "css-optimize": "purifycss ./node_modules/tachyons/css/tachyons.css src/index.html -i -o ./src/assets/css/styles.css",
-    "prestart": "yarn clean && yarn template && yarn css-optimize",
-    "prebuild": "yarn clean && yarn template",
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "clean": "rimraf dist tmp",
+    "template": "hbs --data data.json ./src/index.hbs --output tmp",
+    "css-optimize": "purifycss ./node_modules/tachyons/css/tachyons.css tmp/index.html -i -o ./tmp/styles.css",
+    "prepare": "yarn clean && yarn template && yarn css-optimize",
+    "prebuild": "yarn prepare",
+    "start": "parcel serve ./tmp/index.html",
+    "build": "parcel build ./tmp/index.html"
   },
   "devDependencies": {
     "hbs-cli": "^1.4.0",

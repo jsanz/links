@@ -108,7 +108,4 @@ dist
 .parcel-cache
 .vscode
 dist
-app
-
-# Generated assets 
-src/index.html
+tmp

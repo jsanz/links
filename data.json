@@ -45,8 +45,14 @@
     {
       "id": "goodreads",
       "icon": "goodreads",
-      "title": "Reads",
+      "title": "Books",
       "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz"
+    },
+    {
+      "id": "keybase",
+      "icon": "keybase",
+      "title": "Keybase",
+      "link": "https://keybase.io/jsanz"
     },
     {
       "id": "geomatic",
@@ -64,7 +70,7 @@
       "id": "polywork",
       "icon": "polywork",
       "title": "Polywork",
-      "link": "https://polywork.com/jsanz"
+      "link": "https://work.jorgesanz.net/"
     }
   ]
 }

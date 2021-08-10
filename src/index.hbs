@@ -44,7 +44,9 @@
     <link type="text/plain" rel="author" href="../src/assets/humans.txt" />
 
     {{!-- Minified Tachyons styles --}}
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/tachyons-css/tachyons/master/css/tachyons.min.css">
     <link rel="stylesheet" href="./styles.css" />
+
   </head>
   
   <body class="sans-serif">
@@ -65,11 +67,11 @@
       <article class="ph2 pv1 w-70 w-50-l">
         <section
           id="links-list"
-          class="flex flex-column items-center justify-center"
+          class="flex flex-wrap items-center justify-center"
         >
           {{! Links list loop }}
           {{#each links}}
-            <div class="w-70-ns w-100 tc">
+            <div class="w-30-ns w-100">
               <a
                 class="link-a no-underline near-black bg-animate bg-near-white hover-bg-washed-green inline-flex items-center ba ma2 tc br2 pa2 w-90"
                 href="{{link}}"

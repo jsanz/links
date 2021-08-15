@@ -48,6 +48,18 @@
       "title": "Books",
       "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz"
     },
+
+    {
+
+      "id": "lastfm",
+
+      "icon": "lastfm",
+
+      "title": "LastFM",
+
+      "link": "https://www.last.fm/user/xurxosanz"
+
+    },
     {
       "id": "keybase",
       "icon": "keybase",

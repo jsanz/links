@@ -19,22 +19,22 @@
       "link": "https://jorgesanz.net"
     },
     {
-      "id": "photos",
-      "icon": "photobucket",
-      "title": "Pictures",
-      "link": "https://media.jorgesanz.net"
-    },
-    {
       "id": "twitter",
       "icon": "twitter",
       "title": "Twitter",
       "link": "https://twitter.com/xurxosanz"
     },
     {
-      "id": "github",
-      "icon": "github",
-      "title": "Github",
-      "link": "https://github.com/jsanz"
+      "id": "telegram",
+      "icon": "telegram",
+      "title": "Telegram",
+      "link": "https://t.me/xurxosanz"
+    },
+    {
+      "id": "photos",
+      "icon": "photobucket",
+      "title": "Pictures",
+      "link": "https://media.jorgesanz.net"
     },
     {
       "id": "pinboard",
@@ -48,17 +48,11 @@
       "title": "Books",
       "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz"
     },
-
     {
-
       "id": "lastfm",
-
       "icon": "lastdotfm",
-
       "title": "LastFM",
-
       "link": "https://www.last.fm/user/xurxosanz"
-
     },
     {
       "id": "keybase",
@@ -67,10 +61,10 @@
       "link": "https://keybase.io/jsanz"
     },
     {
-      "id": "geomatic",
-      "icon": "wordpress",
-      "title": "Geomaticblog",
-      "link": "https://geomaticblog.net"
+      "id": "github",
+      "icon": "github",
+      "title": "Github",
+      "link": "https://github.com/jsanz"
     },
     {
       "id": "linkedin",
@@ -83,6 +77,12 @@
       "icon": "polywork",
       "title": "Polywork",
       "link": "https://work.jorgesanz.net/"
+    },
+    {
+      "id": "geomatic",
+      "icon": "wordpress",
+      "title": "Geomaticblog",
+      "link": "https://geomaticblog.net"
     }
   ]
 }

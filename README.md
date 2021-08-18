@@ -26,7 +26,9 @@ The structure of the [`data.json`](data.json) file is straight forward:
 * The `metadata` section populates the website `<head>` element.
 * `texts` just set up the header and footer, html is allowed
 * The `links` array defines the buttons to show.
-* On each link, the `icon` key refers to a [SimpleIcons](https://simpleicons.org) identifier. Check the website for the brands available. Sadly there are no generic icons, only brands so for some links like my main blog I used a Google Chrome icon.
+* On each link there are two ways to specify the icon you want to see on the website:
+  * `icon-simpleicons` refers to a [SimpleIcons] identifier. Check the website for the brands available or the `node_modules/simple-icons/icons` folder.
+  * `icon-fontawesome` refers to a free [Font Awesome] icon. Check the `node_modules/@fortawesome/fontawesome-free/svgs/` folder and use the relative path without the `.svg` extension for example `solid/microphone`.
 
 The layout of the website is simple and only using [Tachyons] classes so changing fonts, colors, borders, etc. is just a matter of editing the `index.hbs` file (uncomment the full Tachyons CSS while developing).
 
@@ -36,3 +38,5 @@ The layout of the website is simple and only using [Tachyons] classes so changin
 [Netlify]: http://netlify.com/
 [Github Pages]: https://pages.github.com/
 [Vercel]: https://vercel.com/
+[SimpleIcons]: https://simpleicons.org
+[Font Awesome]: https://fontawesome.com

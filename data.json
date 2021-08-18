@@ -14,8 +14,8 @@
   "links": [
     {
       "id": "web",
-      "icon": "googlechrome",
-      "title": "Blog",
+      "icon-fontawesome": "solid/globe-europe",
+      "title": "Peronal website",
       "link": "https://jorgesanz.net"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "photos",
-      "icon": "photobucket",
+      "icon-fontawesome": "solid/camera-retro",
       "title": "Pictures",
       "link": "https://media.jorgesanz.net"
     },
@@ -83,6 +83,12 @@
       "icon": "wordpress",
       "title": "Geomaticblog",
       "link": "https://geomaticblog.net"
+    },
+    {
+      "id": "namedrop",
+      "icon-fontawesome": "solid/microphone",
+      "title": "How to say my name",
+      "link": "https://namedrop.io/jorgesanz"
     }
   ]
 }

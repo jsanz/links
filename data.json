@@ -20,13 +20,13 @@
     },
     {
       "id": "twitter",
-      "icon": "twitter",
+      "icon-simpleicons": "twitter",
       "title": "Twitter",
       "link": "https://twitter.com/xurxosanz"
     },
     {
       "id": "telegram",
-      "icon": "telegram",
+      "icon-simpleicons": "telegram",
       "title": "Telegram",
       "link": "https://t.me/xurxosanz"
     },
@@ -38,49 +38,49 @@
     },
     {
       "id": "pinboard",
-      "icon": "pinboard",
+      "icon-simpleicons": "pinboard",
       "title": "Bookmarks",
       "link": "https://pinboard.in/u:xurxosanz"
     },
     {
       "id": "goodreads",
-      "icon": "goodreads",
+      "icon-simpleicons": "goodreads",
       "title": "Books",
       "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz"
     },
     {
       "id": "lastfm",
-      "icon": "lastdotfm",
+      "icon-simpleicons": "lastdotfm",
       "title": "LastFM",
       "link": "https://www.last.fm/user/xurxosanz"
     },
     {
       "id": "keybase",
-      "icon": "keybase",
+      "icon-simpleicons": "keybase",
       "title": "Keybase",
       "link": "https://keybase.io/jsanz"
     },
     {
       "id": "github",
-      "icon": "github",
+      "icon-simpleicons": "github",
       "title": "Github",
       "link": "https://github.com/jsanz"
     },
     {
       "id": "linkedin",
-      "icon": "linkedin",
+      "icon-simpleicons": "linkedin",
       "title": "Linkedin",
       "link": "https://linkedin.com/in/jsanz"
     },
     {
       "id": "polywork",
-      "icon": "polywork",
+      "icon-simpleicons": "polywork",
       "title": "Polywork",
       "link": "https://work.jorgesanz.net/"
     },
     {
       "id": "geomatic",
-      "icon": "wordpress",
+      "icon-simpleicons": "wordpress",
       "title": "Geomaticblog",
       "link": "https://geomaticblog.net"
     },

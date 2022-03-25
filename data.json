@@ -67,16 +67,16 @@
       "link": "https://github.com/jsanz"
     },
     {
+      "id": "cv",
+      "icon-fontawesome": "solid/briefcase",
+      "title": "Curriculum",
+      "link": "https://www.getmanfred.com/profile/jorgesanz"
+    },
+    {
       "id": "linkedin",
       "icon-simpleicons": "linkedin",
       "title": "Linkedin",
       "link": "https://linkedin.com/in/jsanz"
-    },
-    {
-      "id": "polywork",
-      "icon-simpleicons": "polywork",
-      "title": "Polywork",
-      "link": "https://work.jorgesanz.net/"
     },
     {
       "id": "geomatic",

@@ -19,16 +19,28 @@
       "link": "https://jorgesanz.net"
     },
     {
-      "id": "twitter",
-      "icon-simpleicons": "twitter",
-      "title": "Twitter",
-      "link": "https://twitter.com/xurxosanz"
+      "id": "namedrop",
+      "icon-fontawesome": "solid/microphone",
+      "title": "My name",
+      "link": "https://namedrop.io/jorgesanz"
     },
     {
       "id": "telegram",
       "icon-simpleicons": "telegram",
       "title": "Telegram",
       "link": "https://t.me/xurxosanz"
+    },
+    {
+      "id": "twitter",
+      "icon-simpleicons": "twitter",
+      "title": "Twitter",
+      "link": "https://twitter.com/xurxosanz"
+    },
+    {
+      "id": "mastodon",
+      "icon-fontawesome": "brands/mastodon",
+      "title": "Mastodon",
+      "link": "https://mastodon.social/@xurxosanz"
     },
     {
       "id": "photos",
@@ -67,6 +79,12 @@
       "link": "https://github.com/jsanz"
     },
     {
+      "id": "geomatic",
+      "icon-simpleicons": "wordpress",
+      "title": "Geomaticblog",
+      "link": "https://geomaticblog.net"
+    },
+    {
       "id": "cv",
       "icon-fontawesome": "solid/briefcase",
       "title": "Curriculum",
@@ -77,18 +95,6 @@
       "icon-simpleicons": "linkedin",
       "title": "Linkedin",
       "link": "https://linkedin.com/in/jsanz"
-    },
-    {
-      "id": "geomatic",
-      "icon-simpleicons": "wordpress",
-      "title": "Geomaticblog",
-      "link": "https://geomaticblog.net"
-    },
-    {
-      "id": "namedrop",
-      "icon-fontawesome": "solid/microphone",
-      "title": "My name",
-      "link": "https://namedrop.io/jorgesanz"
     }
   ]
 }

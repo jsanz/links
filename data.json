@@ -15,8 +15,14 @@
     {
       "id": "web",
       "icon-fontawesome": "solid/globe-europe",
-      "title": "Peronal website",
+      "title": "Website",
       "link": "https://jorgesanz.net"
+    },
+    {
+      "id": "contact",
+      "icon-fontawesome": "solid/envelope-open-text",
+      "title": "Contact",
+      "link": "https://jorgesanz.net/contact"
     },
     {
       "id": "namedrop",

@@ -55,6 +55,12 @@
       "link": "https://media.jorgesanz.net"
     },
     {
+      "id": "pixelfed",
+      "icon-fontawesome": "solid/camera-retro",
+      "title": "Pixelfed",
+      "link": "https://pixelfed.social/jsanz"
+    },
+    {
       "id": "pinboard",
       "icon-simpleicons": "pinboard",
       "title": "Bookmarks",

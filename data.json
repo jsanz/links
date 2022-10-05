@@ -9,104 +9,113 @@
   },
   "texts": {
     "header": "Jorge Sanz",
-    "footer": "&copy; 2021"
+    "footer": "&copy; 2022"
   },
   "links": [
     {
       "id": "web",
       "icon-fontawesome": "solid/globe-europe",
       "title": "Website",
-      "link": "https://jorgesanz.net"
+      "link": "https://jorgesanz.net",
+      "desc": "My personal website"
     },
     {
       "id": "contact",
       "icon-fontawesome": "solid/envelope-open-text",
       "title": "Contact",
-      "link": "https://jorgesanz.net/contact"
+      "link": "https://jorgesanz.net/contact",
+      "desc":  "A contact form to easly reach to me"
     },
     {
       "id": "namedrop",
       "icon-fontawesome": "solid/microphone",
       "title": "My name",
-      "link": "https://namedrop.io/jorgesanz"
+      "link": "https://namedrop.io/jorgesanz",
+      "desc": "How to pronounce my name"
     },
     {
       "id": "telegram",
       "icon-simpleicons": "telegram",
       "title": "Telegram",
-      "link": "https://t.me/xurxosanz"
+      "link": "https://t.me/xurxosanz",
+      "desc": "Instant messaging"
     },
     {
       "id": "twitter",
       "icon-simpleicons": "twitter",
       "title": "Twitter",
-      "link": "https://twitter.com/xurxosanz"
+      "link": "https://twitter.com/xurxosanz",
+      "desc": "Twitter is my main social media network"
     },
     {
       "id": "mastodon",
       "icon-fontawesome": "brands/mastodon",
       "title": "Mastodon",
-      "link": "https://mastodon.social/@xurxosanz"
+      "link": "https://mastodon.social/@xurxosanz",
+      "desc": "I may end up moving to Mastodon and the fediverse"
     },
     {
       "id": "photos",
       "icon-fontawesome": "solid/camera-retro",
       "title": "Pictures",
-      "link": "https://media.jorgesanz.net"
+      "link": "https://media.jorgesanz.net",
+      "desc": "A curated set of albums with pictures from trips and events"
     },
     {
       "id": "pixelfed",
       "icon-fontawesome": "solid/camera-retro",
       "title": "Pixelfed",
-      "link": "https://pixelfed.social/jsanz"
-    },
-    {
-      "id": "pinboard",
-      "icon-simpleicons": "pinboard",
-      "title": "Bookmarks",
-      "link": "https://pinboard.in/u:xurxosanz"
+      "link": "https://pixelfed.social/jsanz",
+      "desc": "I keep an account for pictures on this fediverse network"
     },
     {
       "id": "goodreads",
       "icon-simpleicons": "goodreads",
       "title": "Books",
-      "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz"
+      "link": "https://www.goodreads.com/user/show/27917312-jorge-sanz",
+      "desc": "Where I track my readings"
     },
     {
       "id": "lastfm",
       "icon-simpleicons": "lastdotfm",
       "title": "LastFM",
-      "link": "https://www.last.fm/user/xurxosanz"
+      "link": "https://www.last.fm/user/xurxosanz",
+      "desc": "The music I listen on spotify is tracked here"
     },
     {
       "id": "keybase",
       "icon-simpleicons": "keybase",
       "title": "Keybase",
-      "link": "https://keybase.io/jsanz"
+      "link": "https://keybase.io/jsanz",
+      "desc": "Securely contact and chat with me with strong encryption"
     },
     {
       "id": "github",
       "icon-simpleicons": "github",
       "title": "Github",
-      "link": "https://github.com/jsanz"
+      "link": "https://github.com/jsanz",
+      "desc": "Most of my everyday job and personal projects are hosted here"
     },
     {
       "id": "geomatic",
       "icon-simpleicons": "wordpress",
       "title": "Geomaticblog",
-      "link": "https://geomaticblog.net"
+      "link": "https://geomaticblog.net",
+      "desc": "The geospatial blog I keep with some friends"
     },
     {
       "id": "cv",
       "icon-fontawesome": "solid/briefcase",
       "title": "Curriculum",
-      "link": "https://www.getmanfred.com/profile/jorgesanz"
+      "link": "https://www.getmanfred.com/profile/jorgesanz",
+      "desc": "My always outdated curriculum"
     },
     {
       "id": "linkedin",
       "icon-simpleicons": "linkedin",
       "title": "Linkedin",
-      "link": "https://linkedin.com/in/jsanz"
+      "link": "https://linkedin.com/in/jsanz",
+      "desc": "The worst social network ever 🤷"
     }
   ]
 }

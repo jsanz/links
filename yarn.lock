@@ -4797,10 +4797,10 @@ purgecss@^2.3.0:
     postcss "7.0.32"
     postcss-selector-parser "^6.0.2"
 
-purify-css@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/purify-css/-/purify-css-1.2.5.tgz#c4b9ec90735765f3e247ba6a3b49f132f3482500"
-  integrity sha512-Vy4jRnV2w/kUjTyxzQOKbFkqwUe6RNLuZgIWR/IRQ8nCqRwiFgwC9XiO9+8poq5KL053uWAQnCSbsfihq77zPg==
+purify-css@1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/purify-css/-/purify-css-1.2.6.tgz#56c2b58e4e1134247c6fdc20ba443b51b45e8b2f"
+  integrity sha512-FuK4G3s98k+nHJGgheSL6/4gbvc5DeM7IyxI0lW+jvAd6pRRAM5etRtBlPrrPdbJt2iO9kLt/+AGoJ6foJM23A==
   dependencies:
     clean-css "^4.0.12"
     glob "^7.1.1"

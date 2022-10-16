@@ -2,7 +2,7 @@
   "metadata": {
     "url": "https://links.jorgesanz.net",
     "title": "Links",
-    "description": "This is a website to share the main links that point to my Internet presence",
+    "description": "This is a website to share the links to my Internet presence on different social networks, tools, and resources.",
     "keywords": "Jorge Sanz, Jorge Gaspar Sanz Salinas, Personal, Website, Links, Bio",
     "author": "Jorge Sanz",
     "twitter_handle": "@xurxosanz"
@@ -15,14 +15,14 @@
     {
       "id": "web",
       "icon-fontawesome": "solid/globe-europe",
-      "title": "Website",
+      "title": "My website",
       "link": "https://jorgesanz.net",
       "desc": "My personal website"
     },
     {
       "id": "contact",
       "icon-fontawesome": "solid/envelope-open-text",
-      "title": "Contact",
+      "title": "Contact me",
       "link": "https://jorgesanz.net/contact",
       "desc":  "A contact form to easly reach to me"
     },
@@ -34,11 +34,45 @@
       "desc": "How to pronounce my name"
     },
     {
+      "id": "github",
+      "icon-simpleicons": "github",
+      "title": "Github",
+      "link": "https://github.com/jsanz",
+      "desc": "Most of my everyday job and personal projects are hosted here"
+    },
+    {
+      "id": "photos",
+      "icon-fontawesome": "solid/camera-retro",
+      "title": "Pictures",
+      "link": "https://media.jorgesanz.net",
+      "desc": "A curated set of albums with pictures from trips and events"
+    },
+    {
+      "id": "keybase",
+      "icon-simpleicons": "keybase",
+      "title": "Keybase",
+      "link": "https://keybase.io/jsanz",
+      "desc": "Securely contact and chat with me with strong encryption"
+    },
+    {
+      "id": "raindrop",
+      "icon-fontawesome": "solid/bookmark",
+      "title": "Bookmarks",
+      "link": "https://raindrop.io/jsanz"
+    },
+    {
       "id": "telegram",
       "icon-simpleicons": "telegram",
       "title": "Telegram",
       "link": "https://t.me/xurxosanz",
       "desc": "Instant messaging"
+    },
+    {
+      "id": "cv",
+      "icon-fontawesome": "solid/briefcase",
+      "title": "Curriculum",
+      "link": "https://www.getmanfred.com/profile/jorgesanz",
+      "desc": "My always outdated curriculum"
     },
     {
       "id": "twitter",
@@ -53,13 +87,6 @@
       "title": "Mastodon",
       "link": "https://mastodon.social/@xurxosanz",
       "desc": "I may end up moving to Mastodon and the fediverse"
-    },
-    {
-      "id": "photos",
-      "icon-fontawesome": "solid/camera-retro",
-      "title": "Pictures",
-      "link": "https://media.jorgesanz.net",
-      "desc": "A curated set of albums with pictures from trips and events"
     },
     {
       "id": "pixelfed",
@@ -83,32 +110,11 @@
       "desc": "The music I listen on spotify is tracked here"
     },
     {
-      "id": "keybase",
-      "icon-simpleicons": "keybase",
-      "title": "Keybase",
-      "link": "https://keybase.io/jsanz",
-      "desc": "Securely contact and chat with me with strong encryption"
-    },
-    {
-      "id": "github",
-      "icon-simpleicons": "github",
-      "title": "Github",
-      "link": "https://github.com/jsanz",
-      "desc": "Most of my everyday job and personal projects are hosted here"
-    },
-    {
       "id": "geomatic",
       "icon-simpleicons": "wordpress",
       "title": "Geomaticblog",
       "link": "https://geomaticblog.net",
       "desc": "The geospatial blog I keep with some friends"
-    },
-    {
-      "id": "cv",
-      "icon-fontawesome": "solid/briefcase",
-      "title": "Curriculum",
-      "link": "https://www.getmanfred.com/profile/jorgesanz",
-      "desc": "My always outdated curriculum"
     },
     {
       "id": "linkedin",
